@@ -71,28 +71,4 @@ function sortearAmigo() {
     // Muestra el nombre del ganador en el elemento de resultados del DOM.
     const resultadoDOM = document.getElementById('resultado');
     resultadoDOM.textContent = `¡El amigo secreto elegido es: ${ganador}!`;
-
-    // Hace visible el botón de reiniciar, ya que el sorteo ha finalizado.
-    document.getElementById('boton-reiniciar').hidden = false;
-}
-
-/**
- * @function reiniciar
- * @description Restablece el juego a su estado inicial.
- * Limpia la lista de amigos, borra el resultado del sorteo de la pantalla
- * y oculta el botón de reinicio.
- */
-function reiniciar() {
-    // Restablece el estado principal del juego vaciando el array de amigos.
-    amigos = [];
-    
-    // Limpia los elementos de la interfaz que mostraban información del juego anterior.
-    document.getElementById('listaAmigos').textContent = '';
-    document.getElementById('resultado').textContent = '';
-    
-    // Devuelve el foco al campo de entrada para que el usuario pueda empezar de nuevo fácilmente.
-    document.getElementById('amigo').focus();
-
-    // Oculta el botón de "Reiniciar", ya que el juego está en su estado inicial.
-    document.getElementById('boton-reiniciar').hidden = true;
 }
