@@ -14,3 +14,5 @@ Aplicación web creada para realizar sorteos de "amigo secreto".
 -   **Sorteo aleatorio**: Con un solo clic, elige un único ganador al azar de la lista.
 
 Hecho para el primer challenge de Oracle ONE.
+
+Tablero Trello que usé para gestionar mis tareas: https://trello.com/b/ETv0ZJ3G/trello-challenge-amigo-secreto-esp
